@@ -1,6 +1,6 @@
 locals {
   region               = "us-west2"
-  org_id               = ""
+  # org_id               = ""
   billing_account      = ""
   host_project_name    = "host-staging"
   service_project_name = "k8s-staging"
