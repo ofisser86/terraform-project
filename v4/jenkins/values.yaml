@@ -236,6 +236,8 @@ controller:
     - google-storage-plugin:1.5.4.1
     - google-compute-engine:4.3.8
     - google-kubernetes-engine:0.8.6
+    - github:1.34.1
+    - matrix-auth:2.6.8
 
   # Set to false to download the minimum required version of all dependencies.
   installLatestPlugins: true
