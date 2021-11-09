@@ -6,7 +6,7 @@ resource "google_storage_bucket" "artifact-storage" {
 }
 
 resource "google_storage_bucket" "jenkins-data" {
-  name                        = "jenkins-data"
+  name                        = "jenkins-data-${var.project_id}"
   location                    = "US"
   force_destroy               = true
   uniform_bucket_level_access = true
