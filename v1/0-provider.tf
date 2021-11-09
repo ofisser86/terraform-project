@@ -1,7 +1,7 @@
 # Google Cloud Platform Provider
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs
 provider "google" {
-  region = "us-west2"
+  region = "us-central1"
 }
 
 # https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/integer

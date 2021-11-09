@@ -1,7 +1,7 @@
 locals {
-  region               = "us-west2"
+  region = "us-central1"
   # org_id               = ""
-  billing_account      = ""
+  billing_account      = "010602-9DE547-94F618"
   host_project_name    = "host-staging"
   service_project_name = "k8s-staging"
   host_project_id      = "${local.host_project_name}-${random_integer.int.result}"
